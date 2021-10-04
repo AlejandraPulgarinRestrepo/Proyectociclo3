@@ -1,0 +1,143 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor</title>
+    <link rel="stylesheet" href="css/Estilo_Editor.css">
+    <script src="Js/Scripts_Editor.js"></script>
+    <link rel="shortcur icon" href="img/faviconverde.jpg">
+
+</head>
+
+<body style="background-color: 3F3D56;">
+    <div class="Contenedor">
+
+        <header class="Header">
+            <img src="img/Logo Green Team.jpeg" height="100" width="150" alt="">
+            <img src="img/mintic2022.png" height="100" width="150" alt="">
+            <nav class="editor">
+                <a href="Index.html">Inicio</a>
+                <a href="Blog.html">Blog</a>
+                <a href="#">=</a>
+            </nav>
+
+        </header>
+
+        <nav class="Nav">
+            <div class="Titulo">Lista De Textos</div>
+
+            <table class="Tabla">
+                <tr>
+                    <td class="Filas" id="txt1">
+                        <div class="Nombre_Libro">La Casa de Puertas Verdes</div>
+                        <div class="Estado_Aprobado">Aprobado</div>
+                        <div class="Autor">Juan Botero</div>
+                        <div class="Fecha">23/09/2021 - 18:50</div>
+                        <div class="Espacio_Botones">
+                            <a href="Libro1.html" target="frm1"><button class="Ver" id="btn1"
+                                    onclick="Atrapar()">VER</button></a>
+                            <a href="Libro1.html" target="_target"><button class="Editar">EDITAR</button></a>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="Espaciado">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="Filas">
+                        <div class="Nombre_Libro">La Ventana Medio Rota</div>
+                        <div class="Estado_Denegado">Denegado</div>
+                        <div class="Autor">Alexander Perez</div>
+                        <div class="Fecha">21/09/2021 - 19:30</div>
+                        <div class="Espacio_Botones">
+                            <a href="Libro2.html" target="frm1"><button class="Ver">VER</button></a>
+                            <a href="Libro2.html" target="_target"><button class="Editar">EDITAR</button></a>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="Espaciado">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="Filas">
+                        <div class="Nombre_Libro">Anatomia de los Murcielagos</div>
+                        <div class="Estado_En_Espera">En Espera</div>
+                        <div class="Autor">Carlos Casanova</div>
+                        <div class="Fecha">19/09/2021 - 09:42</div>
+                        <div class="Espacio_Botones">
+                            <a href="Libro3.html" target="frm1"><button class="Ver">VER</button></a>
+                            <a href="Libro3.html" target="_target"><button class="Editar">EDITAR</button></a>
+                        </div>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="Espaciado">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Filas">
+                        <div class="Nombre_Libro">Introduccion Canva</div>
+                        <div class="Estado_En_Espera">En Espera</div>
+                        <div class="Autor">Natalia Cardenas</div>
+                        <div class="Fecha">14/09/2021 - 12:16</div>
+                        <div class="Espacio_Botones">
+                            <a href="Libro3.html" target="frm1"><button class="Ver">VER</button></a>
+                            <a href="Libro3.html" target="_target"><button class="Editar">EDITAR</button></a>
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Espaciado">
+                    </td>
+                </tr>
+            </table>
+        </nav>
+
+        <section class="Section">
+
+            <table>
+                <tr>
+                    <td>
+                        <iframe class="Frame" name="frm1"></iframe>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="Configuracion">
+
+                        <table>
+                            <tr>
+                                <td class="Columnas">
+                                    <button class="Consultar">Consultar</button>
+                                </td>
+
+                                <td class="Columnas">
+                                    <button class="Denegar" onclick="Denegar()">Denegar</button>
+                                </td>
+
+                                <td class="Columnas">
+                                    <button class="Aprobar">Aprobar</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+        <footer class="Footer"></footer>
+    </div>
+</body>
+
+</html>
