@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="css/EstilosRegistro.css">
     <link rel="shortcur icon" href="img/faviconverde.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="js/functiones autores y articulos.js"></script>
 </head>
+
 
 <body>
     <header>
@@ -35,8 +37,8 @@
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="div">
-                        <h5>Nombres</h5>
-                        <input type="text" class="input">
+                        <h5>Cedula</h5>
+                        <input type="text" class="input" name="ced" id="ced">
                     </div>
                 </div>
                 <div class="input-div one">
@@ -44,8 +46,8 @@
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="div">
-                        <h5>Apellidos</h5>
-                        <input type="text" class="input">
+                        <h5>Primer nombre</h5>
+                        <input type="text" class="input" name="nombre" id="nom">
                     </div>
                 </div>
                 <div class="input-div one">
@@ -53,35 +55,44 @@
                         <i class="fas fa-user"></i>
                     </div>
                     <div class="div">
-                        <h5>Fecha de nacimiento</h5>
-                        <input type="text" class="input">
+                        <h5>Segundo nombre</h5>
+                        <input type="text" class="input" name="nombre2" id="nom2">
                     </div>
                 </div>
                 <div class="input-div one">
                     <div class="i">
                         <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Primer apellido</h5>
+                        <input type="text" class="input" name="apellido" id="ap">
+                    </div>
+                </div>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Segundo apellido</h5>
+                        <input type="text" class="input" name="apellido2" id="ap2">
+                    </div>
+                </div>
+                <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <h5>Clave</h5>
+                        <input type="text" class="input" name="clave" id="clave">
+                    </div>
+                </div>
+                <div class="input-div pass">
+                    <div class="i">
+                        <i class="fas fa-lock"></i>
                     </div>
                     <div class="div">
                         <h5>Correo electronico</h5>
-                        <input type="text" class="input">
-                    </div>
-                </div>
-                <div class="input-div one">
-                    <div class="i">
-                        <i class="fas fa-user"></i>
-                    </div>
-                    <div class="div">
-                        <h5>Nacionalidad</h5>
-                        <input type="text" class="input">
-                    </div>
-                </div>
-                <div class="input-div one">
-                    <div class="i">
-                        <i class="fas fa-user"></i>
-                    </div>
-                    <div class="div">
-                        <h5>Usuario</h5>
-                        <input type="text" class="input">
+                        <input type="text" class="input" name="email" id="email">
                     </div>
                 </div>
                 <div class="input-div pass">
@@ -89,21 +100,12 @@
                         <i class="fas fa-lock"></i>
                     </div>
                     <div class="div">
-                        <h5>Contraseña</h5>
-                        <input type="password" class="input">
-                    </div>
-                </div>
-                <div class="input-div pass">
-                    <div class="i">
-                        <i class="fas fa-lock"></i>
-                    </div>
-                    <div class="div">
-                        <h5>Repita su contraseña</h5>
-                        <input type="password" class="input">
+                        <h5>Edad</h5>
+                        <input type="text" class="input" name="edad" id="edad">
                     </div>
                 </div>
                 <a href="#">Leer terminos y condiciones del sistema.</a>
-                <input type="submit" class="btn" value="Registrarme">
+                <button id="btn1" onclick="registro()"><input type="submit" class="btn" value="Registrarme"></button>
             </form>
         </div>
     </div>
