@@ -1,0 +1,27 @@
+table{
+	text-align: center;
+	padding: 15px;
+	
+}
+
+table, th, td {
+	border: 1px solid #3F3D56;
+  }
+
+
+  table:hover{
+	  background-color: #6c63ff;
+
+  }
+
+  td{
+	font-family: 'Open Sans', sans-serif;
+	font-size: large;
+  }
+  .wave {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}

@@ -1,0 +1,234 @@
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Header {
+    width: 100%;
+    height: 5px;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.editor {
+
+    display: flex;
+    font-size: 25;
+    text-align: right;
+    padding: 0 0 0 0;
+}
+
+.editor>a {
+    width: 50%;
+    text-align: end;
+    position: unset;
+    color: #E6E6E6;
+    font-weight: 30;
+    text-decoration: none;
+    margin-right: 10PX;
+}
+
+.editor>a:hover {
+    text-decoration: underline;
+    color: #6C63FF;
+}
+
+.Contenedor {
+    width: 97vw;
+    height: 46vw;
+    margin: auto;
+    background-color: 3F3D56;
+
+}
+
+.Nav {
+    width: 39%;
+    height: 100%;
+    float: left;
+    background-color: 3F3D56;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+
+}
+
+.Nav::-webkit-scrollbar {
+    width: 7px;
+
+}
+
+.Nav::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Section {
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color: 6C63FF;
+
+}
+
+.Header {
+    height: 20%;
+    width: 99%;
+    float: left;
+
+}
+
+.Footer {
+    width: 100%;
+    height: 20%;
+    float: left;
+}
+
+.Titulo {
+    font-size: 28;
+    color: FFFFFF;
+    text-align: center;
+    font-family: 'Comic Sans';
+    padding-top: 5%;
+}
+
+.Filas {
+    border-radius: 5px;
+    height: 10%;
+    width: 80%;
+    background-color: E6E6E6;
+}
+
+.Tabla {
+    height: 100%;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 5%;
+}
+
+.Nombre_Libro {
+    color: black;
+    font-size: 22;
+    font-family: 'Comic Sans';
+    padding-left: 3%;
+}
+
+.Estado_Aprobado {
+    color: green;
+    font-size: 16;
+    font-family: 'Comic Sans';
+    float: right;
+    padding-right: 3%;
+}
+
+.Estado_Denegado {
+    color: red;
+    font-size: 16;
+    font-family: 'Comic Sans';
+    float: right;
+    padding-right: 3%;
+}
+
+.Estado_En_Espera {
+    color: orange;
+    font-size: 16;
+    font-family: 'Comic Sans';
+    float: right;
+    padding-right: 3%;
+}
+
+.Autor {
+    color: black;
+    font-size: 16;
+    font-family: 'Comic Sans';
+    padding-left: 3%;
+}
+
+.Fecha {
+    color: black;
+    font-size: 16;
+    font-family: 'Comic Sans';
+    padding-left: 70%;
+    padding-right: 3%;
+}
+
+.Espaciado {
+    height: 5%;
+
+}
+
+.Espacio_Botones {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+
+}
+
+.Ver {
+    float: left;
+    color: white;
+    background-color: 3F3D56;
+    width: 30%;
+
+}
+
+.Editar {
+    float: right;
+    color: white;
+    background-color: 3F3D56;
+    width: 30%;
+}
+
+.Frame {
+    width: 647px;
+    height: 450px;
+    border: hidden;
+    padding-left: 9%;
+    padding-top: 5%;
+    align-items: center;
+
+}
+
+.Configuracion {
+    width: 100%;
+    height: 120px;
+
+}
+
+.Columnas {
+    width: 300px;
+    height: 120px;
+    text-align: center;
+}
+
+.Consultar {
+    background-color: 3F3D56;
+    font-family: 'Comic Sans';
+    font-size: 20;
+    color: white;
+    height: 50%;
+    width: 50%;
+}
+
+.Denegar {
+    background-color: 3F3D56;
+    font-family: 'Comic Sans';
+    font-size: 20;
+    height: 50%;
+    width: 50%;
+    color: white;
+}
+
+.Aprobar {
+    background-color: 3F3D56;
+    font-family: 'Comic Sans';
+    font-size: 20;
+    height: 50%;
+    width: 50%;
+    color: white;
+}
