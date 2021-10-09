@@ -57,7 +57,7 @@ namespace revistaApi.Modelos
             return mensaje;
         }
 
-        public String autenticar()//metodo para autenticar entrada al sistema
+        public String autenticar()//metodo para autenticar entrada al sistema de autores
         {
             String Mensaje = "";
             try
@@ -79,8 +79,8 @@ namespace revistaApi.Modelos
                 {
                     return "si";
                 }
-
-                return "no";
+                Mensaje = "Su cedula o clave son incorrectas, por favor intentelo nuevamente";
+                return Mensaje;
             }
             catch (Exception E)
 
